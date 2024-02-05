@@ -1,0 +1,38 @@
+<!-- activity_second.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Other UI components, EditTexts, ImageViews, Buttons, etc. -->
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Number" />
+
+    <Button
+        android:id="@+id/changePictureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Picture" />
+
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <!-- Other UI components as needed -->
+
+</LinearLayout>
